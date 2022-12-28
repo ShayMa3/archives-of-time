@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-one {
+    background-image: url(../img/main-photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#archives {
+    position:relative;
+    transform: translate(-30%, 30%);
+}
+
+#of-time {
+    position:relative;
+    transform: translate(-30%, 10%);
+}
+
+.off-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-157%, 1140%);
+}
+
+.title {
+    color: white;
+    font-size: 190px;
+    font-family: 'IM Fell French Canon', serif;
+}
+
+.subtitle {
+    color: white;
+    font-size: 16px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.nav-bar {
+    position: absolute;
+    transform: translate(35%, 40%);
+}
+
+#binary {
+    width: 125%;
+}
+
+#nav-list {
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+/* todo: add hover underline */
+.nav-item {
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Atkinson Hyperlegible';
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-item-pad {
+    margin-top: 12px;
+}
+
+#blurs {
+    position: absolute;
+    left: 950%;
+    top: -10%;
+}
+    
+/* ROTATING TEXT */
+.infinite-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: yellow;
+}
+
+.infinite-wrapper {
+max-width: 100%;
+overflow: hidden;
+left:0px;
+height: 40px;
+background: black;
+position: absolute;
+width:100%;
+overflow: hidden;
+transform: translate(0, 2090%);
+}
+
+.marquee {
+white-space: nowrap;
+overflow: hidden;
+display: inline-block;
+animation: marquee 100s linear infinite;
+margin-top: 7.5px;
+}
+
+.marquee p {
+display: inline-block;
+}
+
+@keyframes marquee {
+0% {
+    transform: translate3d(0, 0, 0);
+}
+100% {
+    transform: translate3d(-100%, 0, 0);
+}
+}
+
+/* HOVER ANIMATION */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+  
+.hover-underline-animation::after {
+content: '';
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: white;
+transform-origin: bottom right;
+transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+transform: scaleX(1);
+transform-origin: bottom left;
+}

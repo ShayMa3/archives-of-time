@@ -65,7 +65,7 @@
 
 #blurs {
     position: absolute;
-    width: 10vw;
+    width: 9vw;
     justify-content: flex-end;
     float: right;
     right: 2.5vw;
@@ -94,7 +94,38 @@
 .nav-item-pad {
     margin-top: 0.694vw;
 }
-    
+
+/* SECTION TWO */
+.section-two{
+    position:relative;
+    top: 52.9vw;
+    height: 450vw;
+    width: 100%;
+    background-color: #DFDCD6;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 50vw;
+}
+
+.hidden{
+    opacity:0;
+    transition: all 5s;
+}
+
+.show{
+    opacity:1;
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
 /* ROTATING TEXT */
 .infinite-text{
     font-family: 'Roboto', sans-serif;
@@ -104,13 +135,11 @@
 }
 
 .infinite-wrapper {
-/* max-width: 100%; */
+position: absolute;
 overflow: hidden;
 left:0px;
-/* height: 40px; */
 height: 2.315vw;
 background: black;
-position: absolute;
 width:100%;
 overflow: hidden;
 transform: translate(0, 48.5vw);

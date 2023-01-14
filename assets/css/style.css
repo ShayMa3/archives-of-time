@@ -37,7 +37,6 @@
 
 .title {
     color: white;
-    /* font-size: 190px; */
     font-size: 10.995vw;
     font-family: 'IM Fell French Canon', serif;
 }
@@ -60,7 +59,7 @@
 
 #binary {
     position: absolute;
-    left: 2vw;
+    left: 3vw;
     width: 10vw;
     float:left;
 }
@@ -70,12 +69,12 @@
     width: 9vw;
     justify-content: flex-end;
     float: right;
-    right: 2.5vw;
+    right: 3.3vw;
 }
 
 #nav-list {
     position:absolute;
-    left: 2vw;
+    left: 3vw;
     top: 1vw;
     clear:both;
     margin-top: 1.447vw;
@@ -85,7 +84,6 @@
 
 .nav-item {
     color: white;
-    /* letter-spacing: 2px; */
     letter-spacing: 0.116vw;
     font-family: 'Atkinson Hyperlegible';
     font-style: normal;
@@ -101,7 +99,7 @@
 .section-two{
     position:relative;
     top: 52.9vw;
-    height: 450vw;
+    height: 283vw;
     width: 100%;
     background-color: #DFDCD6;
 }
@@ -117,14 +115,14 @@ section{
     margin-top:16vw;
     transform: translate(40%, 0);
     margin-right:5vw;
-    width:50%;
+    width:45%;
 }
 
 #text1{
     z-index: 1;
     margin-top:-40vw;
-    margin-right:22vw;
-    width:50%;
+    margin-right:20vw;
+    width:45%;
 }
 
 #pic2{
@@ -132,46 +130,86 @@ section{
     margin-top:12vw;
     transform: translate(-25%, 0);
     /* margin-right:5vw; */
-    width:60%;
+    width:55%;
 }
 
 #text2{
     z-index: 2;
-    margin-top:-57.5vw;
+    margin-top:-52.5vw;
     margin-right:-22vw;
-    width:45%;
+    width:40%;
 }
 
 #pic3{
     margin-top:-35vw;
     transform: translate(70%, 0);
     margin-right:5vw;
-    width:40%;
+    width:35%;
     /* padding-bottom: -20vw; */
 }
 
 #text3{
     z-index: 1;
-    margin-top:-37vw;
-    margin-right:16.5vw;
-    width:37%;
+    margin-top:-35vw;
+    margin-right: 15vw;
+    width:32%;
 }
 
 .banner {
     margin:1.5vw;
-    width:90%;
+    width:80%;
 }
 
 .banner-wrapper {
+    margin-top:-5vw;
     display: grid;
     place-items: center;
     align-content: center;
 }
 
+/* END SECTION */
+.flex-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+    align-content: center;
+}
+
+.icon{
+    width:2.4vw;
+}
+
+.icon-wrapper{
+    margin:0.8vw;
+}
+
+.flex-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-items: center;
+    align-content: center;
+    margin-left:1vw;
+    /* margin-top:0.2vw; */
+    margin-bottom:-1vw;
+}
+
+.link-text{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 0.926vw;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+}
+
+.link-wrapper{
+    margin:3vw;
+}
+
 /* FADE ANIMATIONS */
 .hidden{
     opacity:0;
-    transition: all 5s;
+    transition: all 4s;
 }
 
 .show{
@@ -187,7 +225,6 @@ section{
 /* ROTATING TEXT */
 .infinite-text{
     font-family: 'Roboto', sans-serif;
-    /* font-size: 20px; */
     font-size: 1.157vw;
     color: yellow;
 }
@@ -236,7 +273,6 @@ content: '';
 position: absolute;
 width: 100%;
 transform: scaleX(0);
-/* height: 2px; */
 height: 0.116vw;
 bottom: 0;
 left: 0;

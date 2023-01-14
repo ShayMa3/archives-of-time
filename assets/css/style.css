@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* SECTION ONE */
+
 #img-main {
     height: auto;
     width: 100%; /* ie8 */
@@ -111,6 +113,62 @@ section{
     min-height: 50vw;
 }
 
+#pic1{
+    margin-top:16vw;
+    transform: translate(40%, 0);
+    margin-right:5vw;
+    width:50%;
+}
+
+#text1{
+    z-index: 1;
+    margin-top:-40vw;
+    margin-right:22vw;
+    width:50%;
+}
+
+#pic2{
+    z-index: 1;
+    margin-top:12vw;
+    transform: translate(-25%, 0);
+    /* margin-right:5vw; */
+    width:60%;
+}
+
+#text2{
+    z-index: 2;
+    margin-top:-57.5vw;
+    margin-right:-22vw;
+    width:45%;
+}
+
+#pic3{
+    margin-top:-35vw;
+    transform: translate(70%, 0);
+    margin-right:5vw;
+    width:40%;
+    /* padding-bottom: -20vw; */
+}
+
+#text3{
+    z-index: 1;
+    margin-top:-37vw;
+    margin-right:16.5vw;
+    width:37%;
+}
+
+.banner {
+    margin:1.5vw;
+    width:90%;
+}
+
+.banner-wrapper {
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+/* FADE ANIMATIONS */
 .hidden{
     opacity:0;
     transition: all 5s;
@@ -150,7 +208,6 @@ white-space: nowrap;
 overflow: hidden;
 display: inline-block;
 animation: marquee 100s linear infinite;
-/* margin-top: 7.5px; */
 margin-top: 0.434vw;
 }
 

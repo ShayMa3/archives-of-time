@@ -10,13 +10,15 @@
     <script defer src="assets/js/script.js"></script>
 </head>
 <body>
-    <img id="img-main" src="assets/img/main-photo.png">
+    <img class="img-hover" id="img-main" src="assets/img/main-photo.png">
     <div class="nav-bar">
         <img id="binary" src="assets/img/binary-title.svg">
         <img id="blurs" src="assets/img/upper-right-blurs.svg">
         <ul id="nav-list">
             <li>
-                <a class="nav-item hover-underline-animation" href="#">about</a>
+                <a class="popup nav-item hover-underline-animation" href="#">about
+                    <span>coming soon &lt;('-'&lt;</span>
+                </a>
             </li>
             <li class="nav-item-pad">
                 <a target="_blank" class="nav-item hover-underline-animation" href="mailto:shayma@berkeley.edu">email</a>
@@ -57,48 +59,55 @@
     
     <div class="section-two">
         <section class="hidden">
-            <img id="pic1" src="assets/img/pic1.svg">
+            <img class="img-hover" id="pic1" src="assets/img/pic1.svg">
             <img id="text1" src="assets/img/text1.svg">
         </section>
 
         <section class="hidden">
-            <img id="pic2" src="assets/img/pic2.svg">
+            <img class="img-hover" id="pic2" src="assets/img/pic2.svg">
             <img id="text2" src="assets/img/text2.svg">
         </section>
 
         <section class="hidden">
-            <img id="pic3" z-index="0" src="assets/img/pic3.svg">
+            <img class="img-hover" id="pic3" z-index="0" src="assets/img/pic3.svg">
             <img id="text3" src="assets/img/text3.svg">
         </section>
 
         <div class="banner-wrapper">
-            <img class="hidden banner" src="assets/img/banner1.svg">
-            <img class="hidden banner" src="assets/img/banner2.svg">
-            <img class="hidden banner" src="assets/img/banner3.svg">
-            <img class="hidden banner" src="assets/img/banner4.svg">
+            <img class="img-hover hidden banner" src="assets/img/banner1.svg">
+            <img class="img-hover hidden banner" src="assets/img/banner2.svg">
+            <img class="img-hover hidden banner" src="assets/img/banner3.svg">
+            <img class="img-hover hidden banner" src="assets/img/banner4.svg">
         </div>
 
         <div class="hidden flex-links">
             <div class="link-wrapper">
-                <p class="link-text hover-underline-animation">about</p>
+                <!-- <a class="popup nav-item hover-underline-animation" href="#"></a> -->
+                <a class="popup link-text hover-underline-animation" href="#">about
+                    <span>coming soon &lt;('-'&lt;</span>
+                </a>
             </div>
             <div class="link-wrapper">
-                <p class="link-text hover-underline-animation">gallery</p>
+                <a class="popup link-text hover-underline-animation" href="#">gallery
+                    <span>coming soon &lt;('-'&lt;</span>
+                </a>
             </div>
             <div class="link-wrapper">
-                <p class="link-text hover-underline-animation">journal</p>
+                <a class="popup link-text hover-underline-animation" href="#">journal
+                    <span>coming soon &lt;('-'&lt;</span>
+                </a>
             </div>
         </div>
 
         <div class="hidden flex-icons">
             <a target="_blank" class="icon-wrapper" href="https://open.spotify.com/user/12166761532?si=de03c81a345d4361">
-                <img class="icon" src="assets/img/spotify.svg">
+                <img class="link-hover icon hover-icon" src="assets/img/spotify.svg">
             </a>
             <a target="_blank" class="icon-wrapper" href="https://www.instagram.com/shaycoshay/">
-                <img class="icon" src="assets/img/instagram.svg">
+                <img class="icon hover-icon" src="assets/img/instagram.svg">
             </a>
             <a target="_blank" class="icon-wrapper" href="https://www.linkedin.com/in/shay-ma/">
-                <img class="icon" src="assets/img/linkedin.svg">
+                <img class="icon hover-icon" src="assets/img/linkedin.svg">
             </a>
         </div>
 
